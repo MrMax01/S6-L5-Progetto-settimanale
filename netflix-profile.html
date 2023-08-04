@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Profile</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body class="bg-dark">
+    <nav class="navbar navbar-dark bg-dark py-0">
+      <a class="navbar-brand" href="#">
+        <img src="./assets/netflix_logo.png" alt="Netflix" width="100%" height="40" />
+      </a>
+    </nav>
+    <main class="box-xxs text-white border-bottom border-white pb-4 mb-4">
+      <h2 class="border-bottom border-white mb-3">Edit Profile</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-3">
+            <img src="./assets/avatar.png" alt="" class="img-fluid" />
+          </div>
+          <div class="col-9">
+            <div class="border-bottom border-white-50 pb-3">
+              <div class="p-2 mb-5 bg-secondary text-white">Strive-student</div>
+              <div>Language:</div>
+              <div class="dropdown me-auto">
+                <button
+                  class="btn-secondary dropdown-toggle bg-black text-white border border-white"
+                  type="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  English
+                </button>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                  <li><a class="dropdown-item active" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li><a class="dropdown-item" href="#">Separated link</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="border-bottom border-white-50 pb-3 d-inline-block">
+              <div class="mb-2">Maturity Settings:</div>
+              <div class="p-2 mb-2 bg-darkgray text-white">ALL MATURITY RATINGS</div>
+              <p><small>This line of text is meant to be treated as fine print.</small></p>
+              <button class="btn-netflix">EDIT</button>
+            </div>
+            <div class="mb-2">Maturity Settings:</div>
+            <div class="form-check">
+              <input class="form-check-input bg-dark fs-5" type="checkbox" value="" id="flexCheckDefault" />
+              <label class="form-check-label" for="flexCheckDefault">
+                <small>Autoplay next episode in a series on all devices </small></label
+              >
+            </div>
+            <div class="form-check">
+              <input class="form-check-input bg-dark fs-5" type="checkbox" value="" id="flexCheckChecked" />
+              <label class="form-check-label" for="flexCheckChecked"
+                ><small> Autoplay preview while browsing on all devices</small>
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="box-xxs">
+      <div class="row justify-content-around">
+        <button class="btn-netflix col-3">SAVE</button>
+
+        <button class="btn-netflix col-3">CANCEL</button>
+
+        <button class="btn-netflix col-5">DELETE PROFILE</button>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,21 @@
+.box-xxs {
+  max-width: 700px;
+  margin-inline: auto;
+}
+
+.bg-darkgray {
+  background-color: #333333;
+}
+
+.btn-netflix {
+  border: 2px solid #808080;
+  color: #808080;
+  background-color: transparent;
+  padding: 0.25em 0.75em;
+  letter-spacing: 0.25em;
+}
+.btn-netflix:hover {
+  border: 2px solid transparent;
+  background-color: white;
+  color: #141414;
+}/*# sourceMappingURL=style.css.map */
